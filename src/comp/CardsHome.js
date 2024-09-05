@@ -1,6 +1,8 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import exec from './images/exec/exec.jpg';
+import insta from './images/insta.png';
 
 function CardsHome() {
   return (
@@ -10,12 +12,12 @@ function CardsHome() {
         <div className='cards__wrapper'>
           <ul className='cards__items home-row'>
             <CardItem
-              src='/images/exec/exec.jpg'
+              src={exec}
               text='Meet the 2024 SHPExUSC Executive Board'
               path='/aboutus'
             />
             <CardItem
-              src='/images/insta.png'
+              src={insta}
               text='Check out our Instagram!'
               path='https://www.instagram.com/shpe_uscarolina/?hl=en'
             />
