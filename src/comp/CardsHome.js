@@ -3,6 +3,7 @@ import './Cards.css';
 import CardItem from './CardItem';
 import exec from './images/exec/exec.jpg';
 import insta from './images/insta.png';
+import AboutUs from './comp/pages/AboutUs';
 
 function CardsHome() {
   return (
@@ -14,7 +15,7 @@ function CardsHome() {
             <CardItem
               src={exec}
               text='Meet the 2024 SHPExUSC Executive Board'
-              path='/aboutus'
+              path={AboutUs}
             />
             <CardItem
               src={insta}
