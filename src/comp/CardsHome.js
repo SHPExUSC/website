@@ -3,7 +3,7 @@ import './Cards.css';
 import CardItem from './CardItem';
 import exec from './images/exec/exec.jpg';
 import insta from './images/insta.png';
-import AboutUs from './comp/pages/AboutUs';
+import AboutUs from './pages/AboutUs';
 
 function CardsHome() {
   return (
